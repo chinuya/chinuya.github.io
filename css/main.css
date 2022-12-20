@@ -1,3 +1,10 @@
+.post {
+  margin-top: 60px;
+  padding: 20px;
+  margin-bottom: 60px;
+  -webkit-box-shadow: 0 0 5px #788072;
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
 :root {
   --body-bg-color: #eee;
   --content-bg-color: #fff;
@@ -2111,7 +2118,7 @@ ul.breadcrumb li:last-child {
 }
 .header {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
 }
 @media (max-width: 991px) {
@@ -2148,7 +2155,7 @@ ul.breadcrumb li:last-child {
   }
 }
 .main-inner {
-  border-radius: initial;
+  border-radius: 20px 20px 20px 20px;
   box-sizing: border-box;
   width: calc(100% - 252px);
 }
@@ -2286,7 +2293,7 @@ ul.breadcrumb li:last-child {
 }
 .sidebar-inner {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 20px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   box-sizing: border-box;
   color: var(--text-color);
@@ -2344,7 +2351,7 @@ ul.breadcrumb li:last-child {
 .main-inner > .comments,
 .main-inner > .pagination {
   background: var(--content-bg-color);
-  border-radius: initial;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
 }
 .main-inner > .sub-menu:not(:first-child):not(.sub-menu),
@@ -2352,7 +2359,7 @@ ul.breadcrumb li:last-child {
 .main-inner > .tabs-comment:not(:first-child):not(.sub-menu),
 .main-inner > .comments:not(:first-child):not(.sub-menu),
 .main-inner > .pagination:not(:first-child):not(.sub-menu) {
-  border-radius: initial;
+  border-radius: 20px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   margin-top: 12px;
 }
@@ -2419,4 +2426,10 @@ ul.breadcrumb li:last-child {
   .comments {
     padding: 10px 12px;
   }
+}
+body {
+  background: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100% 100%;
 }
