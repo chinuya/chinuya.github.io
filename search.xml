@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>做题计划</title>
-    <url>/2022/12/21/%E5%81%9A%E9%A2%98%E8%AE%A1%E5%88%92/</url>
-    <content><![CDATA[<p>打算对于每道题，写一篇质量不很高的题解记录。</p>
-<h3 id="洛谷做题计划"><a href="#洛谷做题计划" class="headerlink" title="洛谷做题计划"></a>洛谷做题计划</h3><p><a href="https://www.luogu.com.cn/problem/P1000">P1000	超级玛丽游戏</a><br><a href="chinuya.github.io/2022/12/21/P1000-%E8%B6%85%E7%BA%A7%E7%8E%9B%E4%B8%BD%E6%B8%B8%E6%88%8F-%E9%A2%98%E8%A7%A3/">题解</a><br><a href="https://www.luogu.com.cn/problem/P1001">P1001	A+B Problem</a><br><a href="chinuya.github.io/2022/12/21/P1001-A-B-problem-%E9%A2%98%E8%A7%A3/">题解</a><br><a href="https://www.luogu.com.cn/problem/P1002">P1002	[NOIP2002 普及组] 过河卒</a><br><a href="">题解</a><br><a href="https://www.luogu.com.cn/problem/P1003">P1003	[NOIP2011 提高组] 铺地毯</a><br><a href="">题解</a><br><a href="https://www.luogu.com.cn/problem/P1007">P1007	独木桥</a><br><a href="">题解</a><br><a href="https://www.luogu.com.cn/problem/P1008">P1008	[NOIP1998 普及组] 三连击</a><br><a href="">题解</a><br><a href="https://www.luogu.com.cn/problem/P1009">P1009	[NOIP1998 普及组] 阶乘之和</a><br><a href="">题解</a><br><a href="https://www.luogu.com.cn/problem/P1010">P1010	[NOIP1998 普及组] 幂次方</a><br><a href="">题解</a><br><a href="https://www.luogu.com.cn/problem/P1011">P1011	[NOIP1998 提高组] 车站</a><br><a href="">题解</a><br><a href="https://www.luogu.com.cn/problem/P1012">P1012	[NOIP1998 提高组] 拼数</a><br><a href="">题解</a></p>
-]]></content>
+    <title>P1001-A+B-problem-题解</title>
+    <url>/2022/12/21/P1001-A-B-problem-%E9%A2%98%E8%A7%A3/</url>
+    <content><![CDATA[<p>使用cin读入，cout输出。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> a,b;</span><br><span class="line">	cin&gt;&gt;a&gt;&gt;b;</span><br><span class="line">	cout&lt;&lt;a+b; </span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>洛谷</category>
       </categories>
       <tags>
         <tag>c++</tag>
         <tag>语法</tag>
-        <tag>算法</tag>
         <tag>题解</tag>
       </tags>
   </entry>
@@ -37,10 +35,11 @@
       </tags>
   </entry>
   <entry>
-    <title>P1001-A+B-problem-题解</title>
-    <url>/2022/12/21/P1001-A-B-problem-%E9%A2%98%E8%A7%A3/</url>
-    <content><![CDATA[<p>使用cin读入，cout输出。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> a,b;</span><br><span class="line">	cin&gt;&gt;a&gt;&gt;b;</span><br><span class="line">	cout&lt;&lt;a+b; </span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <title>做题计划</title>
+    <url>/2022/12/21/%E5%81%9A%E9%A2%98%E8%AE%A1%E5%88%92/</url>
+    <content><![CDATA[<p>打算对于每道题，写一篇质量不很高的题解记录。</p>
+<h3 id="洛谷做题计划"><a href="#洛谷做题计划" class="headerlink" title="洛谷做题计划"></a>洛谷做题计划</h3><p><a href="https://www.luogu.com.cn/problem/P1000">P1000	超级玛丽游戏</a><br><a href="2022/12/21/P1000-%E8%B6%85%E7%BA%A7%E7%8E%9B%E4%B8%BD%E6%B8%B8%E6%88%8F-%E9%A2%98%E8%A7%A3/">题解</a><br><a href="https://www.luogu.com.cn/problem/P1001">P1001	A+B Problem</a><br><a href="2022/12/21/P1001-A-B-problem-%E9%A2%98%E8%A7%A3/">题解</a><br><a href="https://www.luogu.com.cn/problem/P1002">P1002	[NOIP2002 普及组] 过河卒</a><br><a href="">题解</a><br><a href="https://www.luogu.com.cn/problem/P1003">P1003	[NOIP2011 提高组] 铺地毯</a><br><a href="">题解</a><br><a href="https://www.luogu.com.cn/problem/P1007">P1007	独木桥</a><br><a href="">题解</a><br><a href="https://www.luogu.com.cn/problem/P1008">P1008	[NOIP1998 普及组] 三连击</a><br><a href="">题解</a><br><a href="https://www.luogu.com.cn/problem/P1009">P1009	[NOIP1998 普及组] 阶乘之和</a><br><a href="">题解</a><br><a href="https://www.luogu.com.cn/problem/P1010">P1010	[NOIP1998 普及组] 幂次方</a><br><a href="">题解</a><br><a href="https://www.luogu.com.cn/problem/P1011">P1011	[NOIP1998 提高组] 车站</a><br><a href="">题解</a><br><a href="https://www.luogu.com.cn/problem/P1012">P1012	[NOIP1998 提高组] 拼数</a><br><a href="">题解</a></p>
+]]></content>
       <categories>
         <category>洛谷</category>
       </categories>
@@ -48,21 +47,7 @@
         <tag>c++</tag>
         <tag>语法</tag>
         <tag>题解</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>P1000-超级玛丽游戏-题解</title>
-    <url>/2022/12/21/P1000-%E8%B6%85%E7%BA%A7%E7%8E%9B%E4%B8%BD%E6%B8%B8%E6%88%8F-%E9%A2%98%E8%A7%A3/</url>
-    <content><![CDATA[<p>这题没什么说的，直接用cout输出即可。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;                ********&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ************&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ####....#.&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             #..###.....##....&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             ###.......######              ###            ###&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;                ...........               #...#          #...#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ##*#######                 #.#.#          #.#.#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;            ####*******######             #.#.#          #.#.#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ...#***.****.*###....          #...#          #...#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ....**********##.....           ###            ###&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ....****    *****....&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             ####        ####&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ######        ######&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##############################################################&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#...#......#.##...#......#.##...#......#.##------------------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;###########################################------------------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#..#....#....##..#....#....##..#....#....#####################&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#.....#......##.....#......##.....#......#    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#.#..#....#..##.#..#....#..##.#..#....#..#    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    ############&quot;</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>洛谷</category>
-      </categories>
-      <tags>
-        <tag>c++</tag>
-        <tag>语法</tag>
         <tag>算法</tag>
-        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -95,6 +80,21 @@
       </categories>
       <tags>
         <tag>c++</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>P1000-超级玛丽游戏-题解</title>
+    <url>/2022/12/21/P1000-%E8%B6%85%E7%BA%A7%E7%8E%9B%E4%B8%BD%E6%B8%B8%E6%88%8F-%E9%A2%98%E8%A7%A3/</url>
+    <content><![CDATA[<p>这题没什么说的，直接用cout输出即可。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;                ********&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ************&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ####....#.&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             #..###.....##....&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             ###.......######              ###            ###&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;                ...........               #...#          #...#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ##*#######                 #.#.#          #.#.#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;            ####*******######             #.#.#          #.#.#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ...#***.****.*###....          #...#          #...#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ....**********##.....           ###            ###&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ....****    *****....&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             ####        ####&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ######        ######&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##############################################################&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#...#......#.##...#......#.##...#......#.##------------------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;###########################################------------------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#..#....#....##..#....#....##..#....#....#####################&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#.....#......##.....#......##.....#......#    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#.#..#....#..##.#..#....#..##.#..#....#..#    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    ############&quot;</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>洛谷</category>
+      </categories>
+      <tags>
+        <tag>c++</tag>
+        <tag>语法</tag>
+        <tag>题解</tag>
         <tag>算法</tag>
       </tags>
   </entry>
