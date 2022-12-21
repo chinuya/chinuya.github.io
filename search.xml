@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>P1000-超级玛丽游戏-题解</title>
-    <url>/2022/12/21/P1000-%E8%B6%85%E7%BA%A7%E7%8E%9B%E4%B8%BD%E6%B8%B8%E6%88%8F-%E9%A2%98%E8%A7%A3/</url>
-    <content><![CDATA[<p>这题没什么说的，直接用cout输出即可。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;                ********&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ************&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ####....#.&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             #..###.....##....&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             ###.......######              ###            ###&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;                ...........               #...#          #...#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ##*#######                 #.#.#          #.#.#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;            ####*******######             #.#.#          #.#.#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ...#***.****.*###....          #...#          #...#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ....**********##.....           ###            ###&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ....****    *****....&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             ####        ####&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ######        ######&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##############################################################&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#...#......#.##...#......#.##...#......#.##------------------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;###########################################------------------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#..#....#....##..#....#....##..#....#....#####################&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#.....#......##.....#......##.....#......#    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#.#..#....#..##.#..#....#..##.#..#....#..#    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    ############&quot;</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>洛谷</category>
-      </categories>
-      <tags>
-        <tag>c++</tag>
-        <tag>语法</tag>
-        <tag>算法</tag>
-        <tag>题解</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>P1001-A+B-problem-题解</title>
     <url>/2022/12/21/P1001-A-B-problem-%E9%A2%98%E8%A7%A3/</url>
     <content><![CDATA[<p>使用cin读入，cout输出。</p>
@@ -27,6 +12,21 @@
         <tag>c++</tag>
         <tag>语法</tag>
         <tag>题解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>P1000-超级玛丽游戏-题解</title>
+    <url>/2022/12/21/P1000-%E8%B6%85%E7%BA%A7%E7%8E%9B%E4%B8%BD%E6%B8%B8%E6%88%8F-%E9%A2%98%E8%A7%A3/</url>
+    <content><![CDATA[<p>这题没什么说的，直接用cout输出即可。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;                ********&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ************&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ####....#.&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             #..###.....##....&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             ###.......######              ###            ###&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;                ...........               #...#          #...#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ##*#######                 #.#.#          #.#.#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;            ####*******######             #.#.#          #.#.#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ...#***.****.*###....          #...#          #...#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ....**********##.....           ###            ###&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ....****    *****....&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             ####        ####&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ######        ######&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##############################################################&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#...#......#.##...#......#.##...#......#.##------------------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;###########################################------------------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#..#....#....##..#....#....##..#....#....#####################&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#.....#......##.....#......##.....#......#    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#.#..#....#..##.#..#....#..##.#..#....#..#    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    ############&quot;</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>洛谷</category>
+      </categories>
+      <tags>
+        <tag>c++</tag>
+        <tag>语法</tag>
+        <tag>题解</tag>
+        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
@@ -63,8 +63,8 @@
       <tags>
         <tag>c++</tag>
         <tag>语法</tag>
-        <tag>算法</tag>
         <tag>题解</tag>
+        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
