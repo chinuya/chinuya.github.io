@@ -100,9 +100,9 @@
     
     <category term="语法" scheme="http://example.com/tags/%E8%AF%AD%E6%B3%95/"/>
     
-    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
-    
     <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
@@ -131,9 +131,9 @@
     
     <category term="语法" scheme="http://example.com/tags/%E8%AF%AD%E6%B3%95/"/>
     
-    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
-    
     <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
