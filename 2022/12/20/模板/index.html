@@ -27,10 +27,11 @@
 <meta property="og:description" content="模板二分最大值最小12345678910111213int main()&amp;#123;	int l&#x3D;1,r&#x3D;n,mid;	while(l&lt;r)&amp;#123;&#x2F;&#x2F;l为开始位置，r为结束位置		mid&#x3D;(l+r)&#x2F;2;		if(check(mid)&#x3D;&#x3D;true)			r&#x3D;mid;		else			l&#x3D;mid+1;	&amp;#125;	cout&lt;&lt;l;	return 0;&amp;#125; 最小值最大">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-12-20T04:03:36.000Z">
-<meta property="article:modified_time" content="2022-12-20T04:07:57.147Z">
+<meta property="article:modified_time" content="2022-12-22T07:28:00.817Z">
 <meta property="article:author" content="文了个文">
 <meta property="article:tag" content="c++">
 <meta property="article:tag" content="算法">
+<meta property="article:tag" content="模板">
 <meta name="twitter:card" content="summary">
 
 
@@ -159,18 +160,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">1</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -242,9 +243,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2022-12-20 12:03:36 / 修改时间：12:07:57" itemprop="dateCreated datePublished" datetime="2022-12-20T12:03:36+08:00">2022-12-20</time>
+      <time title="创建时间：2022-12-20 12:03:36" itemprop="dateCreated datePublished" datetime="2022-12-20T12:03:36+08:00">2022-12-20</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-12-22 15:28:00" itemprop="dateModified" datetime="2022-12-22T15:28:00+08:00">2022-12-22</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -252,7 +259,7 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E6%A8%A1%E6%9D%BF/" itemprop="url" rel="index"><span itemprop="name">模板</span></a>
+          <a href="/categories/OI/" itemprop="url" rel="index"><span itemprop="name">OI</span></a>
         </span>
     </span>
 
@@ -296,7 +303,6 @@
 <h4 id="中序遍历"><a href="#中序遍历" class="headerlink" title="中序遍历"></a>中序遍历</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">inorder</span><span class="params">(node *root)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(root!=<span class="literal">NULL</span>)&#123;</span><br><span class="line">		<span class="built_in">inorder</span>(root-&gt;lc);</span><br><span class="line">		cout&lt;&lt;root-&gt;data&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">		<span class="built_in">inorder</span>(root-&gt;rc);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h4 id="后序遍历"><a href="#后序遍历" class="headerlink" title="后序遍历"></a>后序遍历</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">bhorder</span><span class="params">(node *root)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(root!=<span class="literal">NULL</span>)&#123;</span><br><span class="line">		<span class="built_in">bhorder</span>(root-&gt;lc);</span><br><span class="line">		<span class="built_in">bhorder</span>(root-&gt;rc);</span><br><span class="line">		cout&lt;&lt;root-&gt;data&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h4 id="层次遍历"><a href="#层次遍历" class="headerlink" title="层次遍历"></a>层次遍历</h4><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">levelorder</span><span class="params">(node *root)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	queue&lt;node *&gt;q;<span class="comment">//定义一个队列</span></span><br><span class="line">	q.<span class="built_in">push</span>(root);<span class="comment">//根节点压入</span></span><br><span class="line">	<span class="keyword">while</span>(!q.<span class="built_in">empty</span>())&#123;<span class="comment">//队列非空</span></span><br><span class="line">		node *r=q.<span class="built_in">front</span>();</span><br><span class="line">		cout&lt;&lt;r-&gt;data&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">		q.<span class="built_in">pop</span>();</span><br><span class="line">		<span class="keyword">if</span>(r-&gt;lc)	q.<span class="built_in">push</span>(r-&gt;lc);<span class="comment">//存在左孩子，压入</span></span><br><span class="line">		<span class="keyword">if</span>(r-&gt;rc)	q.<span class="built_in">push</span>(r-&gt;rc);<span class="comment">//存在右孩子，压入</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 <h3 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h3><h4 id="手写堆"><a href="#手写堆" class="headerlink" title="手写堆"></a>手写堆</h4><h5 id="向上调整与向下调整"><a href="#向上调整与向下调整" class="headerlink" title="向上调整与向下调整"></a>向上调整与向下调整</h5><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">up</span><span class="params">(<span class="type">int</span> k)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> f=k/<span class="number">2</span>;<span class="comment">//f为父节点</span></span><br><span class="line">	<span class="keyword">while</span>(f&gt;=<span class="number">1</span>)&#123;</span><br><span class="line">		<span class="keyword">if</span>(h[k]&gt;h[f])&#123;</span><br><span class="line">			<span class="built_in">swap</span>(h[k],h[f]);</span><br><span class="line">			k=f;</span><br><span class="line">			f/=<span class="number">2</span>;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">down</span><span class="params">(<span class="type">int</span> k,<span class="type">int</span> high)</span><span class="comment">//把数组在k~high之间调整</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> j=k*<span class="number">2</span>;<span class="comment">//j为左孩子下标</span></span><br><span class="line">	<span class="keyword">while</span>(j&lt;=high)&#123;<span class="comment">//孩子节点存在</span></span><br><span class="line">		<span class="comment">//j存较大孩子下标</span></span><br><span class="line">		<span class="keyword">if</span>(j+<span class="number">1</span>&lt;=high&amp;&amp;h[j+<span class="number">1</span>]&gt;h[j])	j+=<span class="number">1</span>;</span><br><span class="line">		<span class="keyword">if</span>(h[j]&gt;h[k])&#123;</span><br><span class="line">			<span class="built_in">swap</span>(h[j],h[k]);</span><br><span class="line">			k=j;</span><br><span class="line">			j*=<span class="number">2</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">break</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h5 id="建堆"><a href="#建堆" class="headerlink" title="建堆"></a>建堆</h5><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">build</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=n/<span class="number">2</span>;i&gt;=<span class="number">1</span>;i--)&#123;</span><br><span class="line">		<span class="built_in">down</span>(i,n);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h5 id="插入"><a href="#插入" class="headerlink" title="插入"></a>插入</h5><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">insert</span><span class="params">(<span class="type">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	h[++n]=x;</span><br><span class="line">	<span class="built_in">up</span>(n);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -359,6 +365,7 @@
           <div class="post-tags">
               <a href="/tags/c/" rel="tag"># c++</a>
               <a href="/tags/%E7%AE%97%E6%B3%95/" rel="tag"># 算法</a>
+              <a href="/tags/%E6%A8%A1%E6%9D%BF/" rel="tag"># 模板</a>
           </div>
 
         
@@ -402,14 +409,14 @@
       <i class="fa fa-chart-line"></i>
     </span>
       <span>站点总字数：</span>
-    <span title="站点总字数">8k</span>
+    <span title="站点总字数">12k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">7 分钟</span>
+    <span title="站点阅读时长">11 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
@@ -470,6 +477,12 @@
   <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
 
 
 
