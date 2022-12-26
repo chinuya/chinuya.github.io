@@ -1,56 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>P1000-超级玛丽游戏-题解</title>
-    <url>/2022/12/21/P1000-%E8%B6%85%E7%BA%A7%E7%8E%9B%E4%B8%BD%E6%B8%B8%E6%88%8F-%E9%A2%98%E8%A7%A3/</url>
-    <content><![CDATA[<p>这题没什么说的，直接用cout输出即可。<br><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;                ********&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ************&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ####....#.&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             #..###.....##....&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             ###.......######              ###            ###&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;                ...........               #...#          #...#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ##*#######                 #.#.#          #.#.#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;            ####*******######             #.#.#          #.#.#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ...#***.****.*###....          #...#          #...#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ....**********##.....           ###            ###&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ....****    *****....&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             ####        ####&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ######        ######&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##############################################################&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#...#......#.##...#......#.##...#......#.##------------------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;###########################################------------------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#..#....#....##..#....#....##..#....#....#####################&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#.....#......##.....#......##.....#......#    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#.#..#....#..##.#..#....#..##.#..#....#..#    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    ############&quot;</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br><span id="more"></span></p>
-]]></content>
-      <categories>
-        <category>OI</category>
-      </categories>
-      <tags>
-        <tag>c++</tag>
-        <tag>语法</tag>
-        <tag>题解</tag>
-        <tag>洛谷</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>P1001-A+B-problem-题解</title>
-    <url>/2022/12/21/P1001-A-B-problem-%E9%A2%98%E8%A7%A3/</url>
-    <content><![CDATA[<p>使用cin读入，cout输出。<br><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> a,b;</span><br><span class="line">	cin&gt;&gt;a&gt;&gt;b;</span><br><span class="line">	cout&lt;&lt;a+b; </span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br><span id="more"></span></p>
-]]></content>
-      <categories>
-        <category>OI</category>
-      </categories>
-      <tags>
-        <tag>c++</tag>
-        <tag>语法</tag>
-        <tag>题解</tag>
-        <tag>洛谷</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>P1002-过河卒-题解</title>
-    <url>/2022/12/21/P1002-%E8%BF%87%E6%B2%B3%E5%8D%92-%E9%A2%98%E8%A7%A3/</url>
-    <content><![CDATA[<h3 id="dfs"><a href="#dfs" class="headerlink" title="dfs"></a>dfs</h3><p>看到求路径的数量，就想到用dfs搜索来解决。<br><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">long</span> <span class="type">long</span> cnt;</span><br><span class="line"><span class="type">long</span> <span class="type">long</span> x11,y11,x22,y22,v[<span class="number">30</span>][<span class="number">30</span>];</span><br><span class="line"><span class="type">int</span> dx[<span class="number">10</span>]=&#123;<span class="number">1</span>,<span class="number">0</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">-2</span>,<span class="number">-2</span>,<span class="number">-1</span>,<span class="number">1</span>,<span class="number">-1</span>,<span class="number">1</span>&#125;;<span class="comment">//卒的偏移和马的偏移</span></span><br><span class="line"><span class="type">int</span> dy[<span class="number">10</span>]=&#123;<span class="number">0</span>,<span class="number">1</span>,<span class="number">-1</span>,<span class="number">1</span>,<span class="number">1</span>,<span class="number">-1</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">-2</span>,<span class="number">-2</span>&#125;;<span class="comment">//卒的偏移和马的偏移</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> x,<span class="type">int</span> y)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(x==x11&amp;&amp;y==y11)&#123;<span class="comment">//如果到达终点</span></span><br><span class="line">		cnt++;<span class="comment">//路径++</span></span><br><span class="line">		<span class="keyword">return</span> ;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;=<span class="number">1</span>;i++)&#123;</span><br><span class="line">		<span class="type">int</span> nx=x+dx[i];</span><br><span class="line">		<span class="type">int</span> ny=y+dy[i];<span class="comment">//循环求出卒的坐标</span></span><br><span class="line">		<span class="keyword">if</span>(nx&gt;=<span class="number">0</span>&amp;&amp;ny&gt;=<span class="number">0</span>&amp;&amp;nx&lt;=x11&amp;&amp;ny&lt;=y11&amp;&amp;v[nx][ny]!=<span class="number">1</span>)&#123;</span><br><span class="line">			v[nx][ny]=<span class="number">1</span>;</span><br><span class="line">			<span class="built_in">dfs</span>(nx,ny);<span class="comment">//记忆化搜索</span></span><br><span class="line">			v[nx][ny]=<span class="number">0</span>;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125; </span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cin&gt;&gt;x11&gt;&gt;y11&gt;&gt;x22&gt;&gt;y22;</span><br><span class="line">	v[x22][y22]=<span class="number">1</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">2</span>;i&lt;=<span class="number">9</span>;i++)&#123;</span><br><span class="line">		<span class="type">int</span> nx=x22+dx[i];</span><br><span class="line">		<span class="type">int</span> ny=y22+dy[i];</span><br><span class="line">		<span class="keyword">if</span>(nx&gt;=<span class="number">0</span>&amp;&amp;ny&gt;=<span class="number">0</span>&amp;&amp;nx&lt;=x11&amp;&amp;ny&lt;=y11)</span><br><span class="line">			v[nx][ny]=<span class="number">1</span>;</span><br><span class="line">	&#125;<span class="comment">//求出不能走的点</span></span><br><span class="line">	<span class="keyword">if</span>(v[<span class="number">0</span>][<span class="number">0</span>]==<span class="number">1</span>)&#123;<span class="comment">//如果起点都被占了</span></span><br><span class="line">		cout&lt;&lt;<span class="number">0</span>;<span class="comment">//直接输出没有路径</span></span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">	&#125;	</span><br><span class="line">	<span class="keyword">else</span>&#123;</span><br><span class="line">		<span class="built_in">dfs</span>(<span class="number">0</span>,<span class="number">0</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	cout&lt;&lt;cnt;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br><span id="more"></span><br>但是显然，这样是会超时的。</p>
-<h3 id="dp"><a href="#dp" class="headerlink" title="dp"></a>dp</h3><p>思考我们现在站着的点为$(a,b)$，设走到$(a-1,b)$的路径数量为$x$，走到$(a,b-1)$的路径数量为$y$。</p>
-<p>显然，走到目前的点$(a,b)$的路径数量为$x+y$。</p>
-<p>于是我们得到状态转移方程：$f_{i,j}=f_{i-1,j}+f_{i,j-1}$</p>
-<p>当遇到马的时候，直接跳过就可以了。<br><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="meta">#<span class="keyword">define</span> LL long long</span></span><br><span class="line"><span class="type">int</span> ax,ay,mx,my;</span><br><span class="line"><span class="type">int</span> dx[<span class="number">9</span>]=&#123;<span class="number">-2</span>,<span class="number">-2</span>,<span class="number">-1</span>,<span class="number">-1</span>,<span class="number">1</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">0</span>&#125;;<span class="comment">//卒的偏移和马的偏移</span></span><br><span class="line"><span class="type">int</span> dy[<span class="number">9</span>]=&#123;<span class="number">-1</span>,<span class="number">1</span>,<span class="number">-2</span>,<span class="number">2</span>,<span class="number">-2</span>,<span class="number">2</span>,<span class="number">-1</span>,<span class="number">1</span>,<span class="number">0</span>&#125;;<span class="comment">//卒的偏移和马的偏移</span></span><br><span class="line">LL f[<span class="number">25</span>][<span class="number">25</span>];</span><br><span class="line"><span class="type">bool</span> g[<span class="number">25</span>][<span class="number">25</span>];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin&gt;&gt;ax&gt;&gt;ay&gt;&gt;mx&gt;&gt;my;</span><br><span class="line">    ax+=<span class="number">2</span>;ay+=<span class="number">2</span>;mx+=<span class="number">2</span>;my+=<span class="number">2</span>;<span class="comment">//加2防止越界</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;<span class="number">9</span>;i++)&#123;</span><br><span class="line">        g[mx+dx[i]][my+dy[i]]=<span class="literal">true</span>;<span class="comment">//记录哪里有马</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(g[<span class="number">2</span>][<span class="number">2</span>]!=<span class="literal">true</span>)    f[<span class="number">2</span>][<span class="number">1</span>]=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">else</span>&#123;cout&lt;&lt;<span class="number">0</span>;<span class="keyword">return</span> <span class="number">0</span>;&#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">2</span>;i&lt;=ax;i++)&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">2</span>;j&lt;=ay;j++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(g[i][j]==<span class="literal">true</span>)  <span class="keyword">continue</span>; </span><br><span class="line">            f[i][j]=f[i<span class="number">-1</span>][j]+f[i][j<span class="number">-1</span>]; </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;f[ax][ay]&lt;&lt;endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-]]></content>
-      <categories>
-        <category>OI</category>
-      </categories>
-      <tags>
-        <tag>c++</tag>
-        <tag>语法</tag>
-        <tag>洛谷</tag>
-        <tag>算法</tag>
-        <tag>dp</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>做题计划</title>
     <url>/2022/12/21/%E5%81%9A%E9%A2%98%E8%AE%A1%E5%88%92/</url>
     <content><![CDATA[<p>打算对于每道题，写一篇质量不很高的题解记录。</p>
@@ -65,6 +15,61 @@
         <tag>题解</tag>
         <tag>洛谷</tag>
         <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>语文复习</title>
+    <url>/2022/12/26/%E8%AF%AD%E6%96%87%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<h1 id="语文复习"><a href="#语文复习" class="headerlink" title="语文复习"></a>语文复习</h1><h2 id="一些模板"><a href="#一些模板" class="headerlink" title="一些模板"></a>一些模板</h2><h3 id="标题作用"><a href="#标题作用" class="headerlink" title="标题作用"></a>标题作用</h3><h4 id="内容上"><a href="#内容上" class="headerlink" title="内容上"></a>内容上</h4><ul>
+<li>表明写作对象，体现主要内容、事件、背景。</li>
+<li>揭示文章情感、主旨、道理。</li>
+<li>从修辞、句式、用词等方面分析，生动形象、突出、醒目、新颖含蓄、设置悬念，引起读者阅读兴趣等。</li>
+</ul>
+<h4 id="结构上"><a href="#结构上" class="headerlink" title="结构上"></a>结构上</h4><ul>
+<li>贯穿全文的线索（蓄势、抒情的线索）。</li>
+<li>总括全文，提纲挈领。<span id="more"></span>
+<h2 id="第二单元复习"><a href="#第二单元复习" class="headerlink" title="第二单元复习"></a>第二单元复习</h2><h3 id="《藤野先生》"><a href="#《藤野先生》" class="headerlink" title="《藤野先生》"></a>《藤野先生》</h3><h4 id="文学常识"><a href="#文学常识" class="headerlink" title="文学常识"></a>文学常识</h4>《藤野先生》选自《朝花夕拾》，作者<strong>鲁迅</strong>，浙江绍兴人，原名周树人，伟大的<strong>无产阶级文学家、思想家、革命家</strong>。发表了中国文学史上第一篇白话小说《狂人日记》。<h4 id="常考问题"><a href="#常考问题" class="headerlink" title="常考问题"></a>常考问题</h4><h5 id="《藤野先生》这一标题有何作用？"><a href="#《藤野先生》这一标题有何作用？" class="headerlink" title="《藤野先生》这一标题有何作用？"></a>《藤野先生》这一标题有何作用？</h5><h5 id="《藤野先生》是一篇回忆性散文，文章记录了作者留学过程中的哪几件事？"><a href="#《藤野先生》是一篇回忆性散文，文章记录了作者留学过程中的哪几件事？" class="headerlink" title="《藤野先生》是一篇回忆性散文，文章记录了作者留学过程中的哪几件事？"></a>《藤野先生》是一篇回忆性散文，文章记录了作者留学过程中的哪几件事？</h5></li>
+</ul>
+<ol>
+<li>离开东京之缘由</li>
+<li>仙台求学受优待</li>
+<li>初识藤野先生</li>
+<li>添改讲义</li>
+<li>纠正解剖图 </li>
+<li>关心解剖实习</li>
+<li>了解女人裹脚</li>
+<li>匿名信事件</li>
+<li>看电影事件</li>
+<li>离别先生<h5 id="从文中可以看出藤野先生具有怎样的品质？"><a href="#从文中可以看出藤野先生具有怎样的品质？" class="headerlink" title="从文中可以看出藤野先生具有怎样的品质？"></a>从文中可以看出藤野先生具有怎样的品质？</h5></li>
+<li>认真负责，一丝不苟。</li>
+<li>热情关心，严格要求学生。</li>
+<li>正直无私，真挚诚恳。</li>
+<li>探索研究，实事求是，治学严谨。</li>
+<li>没有民族偏见。<h5 id="作者为什么说藤野先生“在我的眼里和心里是伟大的”？"><a href="#作者为什么说藤野先生“在我的眼里和心里是伟大的”？" class="headerlink" title="作者为什么说藤野先生“在我的眼里和心里是伟大的”？"></a>作者为什么说藤野先生“在我的眼里和心里是伟大的”？</h5>他不仅是一个对“弱国”学生及其贫弱祖国抱有同情和尊重的人，更是一个矢志于医学事业的<strong>正直学者</strong>。藤野先生<strong>治学严谨，教学认真，没有狭隘的民族偏见，能以公正之心对待来自弱国的学生，且给予极大关心、鼓励和真诚的帮助，在当时是难能可贵的</strong>。因此，“他在我的眼里和心里是伟大的”。<h5 id="“实在标致极了。”“标致”你怎么理解？"><a href="#“实在标致极了。”“标致”你怎么理解？" class="headerlink" title="“实在标致极了。”“标致”你怎么理解？"></a>“实在标致极了。”“标致”你怎么理解？</h5>“标致”本义是<strong>相貌、姿态美丽</strong>，多用在女性身上。<br>此处用来形容“清国留学生”，是运用<strong>反语</strong>讽刺清国留学生的<strong>丑态丑行</strong>，表达了作者的<strong>厌恶</strong>之情。<h5 id="本文题目是《藤野先生》，可是作者还用了大量篇幅写和藤野先生无关的见闻和感受，你认为写这些内容有什么用？"><a href="#本文题目是《藤野先生》，可是作者还用了大量篇幅写和藤野先生无关的见闻和感受，你认为写这些内容有什么用？" class="headerlink" title="本文题目是《藤野先生》，可是作者还用了大量篇幅写和藤野先生无关的见闻和感受，你认为写这些内容有什么用？"></a>本文题目是《藤野先生》，可是作者还用了大量篇幅写和藤野先生无关的见闻和感受，你认为写这些内容有什么用？</h5></li>
+</ol>
+<ul>
+<li>全文围绕藤野先生组织材料的，写的是作者<strong>以藤野先生为中心的一段人生经历</strong>（写作者自己的生活经历和感受，也都与写藤野先生有关联）。</li>
+<li>衬托岀藤野先生的<strong>公正、真诚的精神及其在那种环境下的难能可贵</strong>。</li>
+<li>本文暗线为“我”的爱国之情，这些内容虽与藤野先生无直接关系，却表现着作者的<strong>忧国之情，爱国主义精神</strong>。<h5 id="“东京也无非是这样”中的“这样”指什么？“无非”有什么表达作用？本句在结构和内容上各有什么作用？"><a href="#“东京也无非是这样”中的“这样”指什么？“无非”有什么表达作用？本句在结构和内容上各有什么作用？" class="headerlink" title="“东京也无非是这样”中的“这样”指什么？“无非”有什么表达作用？本句在结构和内容上各有什么作用？"></a>“东京也无非是这样”中的“这样”指什么？“无非”有什么表达作用？本句在结构和内容上各有什么作用？</h5>“这样”指代下文作者在东京的见闻。“无非”用双重否定加强肯定的语气，表<strong>厌恶、失望</strong>之情。</li>
+</ul>
+<ul>
+<li>结构：<strong>引出下文</strong>，为下文作者离开东京前往仙台做铺垫。</li>
+<li>内容：表达作者对清国留学生的<strong>厌恶</strong>与<strong>鄙夷</strong>，对东京的失望。<h5 id="“正人君子”这个短语采用了什么修辞方法？指的是哪些人？表现了作者怎样的思想感情？"><a href="#“正人君子”这个短语采用了什么修辞方法？指的是哪些人？表现了作者怎样的思想感情？" class="headerlink" title="“正人君子”这个短语采用了什么修辞方法？指的是哪些人？表现了作者怎样的思想感情？"></a>“正人君子”这个短语采用了什么修辞方法？指的是哪些人？表现了作者怎样的思想感情？</h5>采用<strong>反语</strong>的修辞方法。指那些为封建军阀政客张目而自命为“正人君子”的文人，表现了作者对这些人的<strong>憎恶</strong>之情。<h5 id="赏析：他们也何尝不酒醉似的喝采。"><a href="#赏析：他们也何尝不酒醉似的喝采。" class="headerlink" title="赏析：他们也何尝不酒醉似的喝采。"></a>赏析：他们也<u>何尝不</u>酒醉似的喝采。</h5>“何尝”与“不”连用，以反诘的语气加强肯定，说明他们无一例外的<strong>幸灾乐祸、麻木不仁</strong>，强烈表达了作者对人们精神麻木的痛恨。<h3 id="《回忆我的母亲》"><a href="#《回忆我的母亲》" class="headerlink" title="《回忆我的母亲》"></a>《回忆我的母亲》</h3><h4 id="文学常识-1"><a href="#文学常识-1" class="headerlink" title="文学常识"></a>文学常识</h4>《回忆我的母亲》是篇叙事散文，作者是<strong>朱德</strong>，字<strong>玉阶</strong>，伟大的马克思主义者，伟大的<strong>无产阶级革命家、政治家、军事家</strong>，中国人民解放军的主要缔造者之一，中华人民共和国的开国元勋。<h4 id="常考问题-1"><a href="#常考问题-1" class="headerlink" title="常考问题"></a>常考问题</h4><h5 id="《回忆我的母亲》这一标题有何作用？"><a href="#《回忆我的母亲》这一标题有何作用？" class="headerlink" title="《回忆我的母亲》这一标题有何作用？"></a>《回忆我的母亲》这一标题有何作用？</h5><h5 id="母亲的“勤劳”是通过哪些事例体现出来的？从文中还可以看出母亲具有怎样的品质？"><a href="#母亲的“勤劳”是通过哪些事例体现出来的？从文中还可以看出母亲具有怎样的品质？" class="headerlink" title="母亲的“勤劳”是通过哪些事例体现出来的？从文中还可以看出母亲具有怎样的品质？"></a>母亲的“勤劳”是通过哪些事例体现出来的？从文中还可以看出母亲具有怎样的品质？</h5><strong>分析：</strong></li>
+</ul>
+<ul>
+<li>贫苦的家境中表现母亲的品质<br>母亲养育子女、支撑家庭；每日辛勤劳动；“我”助其劳作，她教我生产知识；她聪明勤劳维系着一家人的吃穿用度；在家庭中任劳任怨，待人和蔼，宽厚仁慈。</li>
+<li>在更广阔的社会背景下叙述具体事例<br>母亲同情穷苦农民，反感为富不仁者；父母节衣缩食培养“我”读书；母亲支持“我”参加革命；母亲离不开土地，习惯劳作；母亲支持“我”的事业，一直过着勤苦的农妇生活；母亲直到老年，仍热爱劳动。</li>
+</ul>
+<p><strong>答案：</strong><br>母亲<strong>勤劳吃苦、俭朴能干，任劳任怨、宽厚仁慈，爱憎分明，有远见、识大体，同情革命、支持革命</strong>等优秀品质。母亲既是一位普通的农妇，又是伟大人民中的一员。</p>
+<h5 id="如何理解“母亲是一个平凡的人，她只是中国千百万劳动人民中的一员，但是，正是这千百万人创造了和创造着中国的历史”这句话？"><a href="#如何理解“母亲是一个平凡的人，她只是中国千百万劳动人民中的一员，但是，正是这千百万人创造了和创造着中国的历史”这句话？" class="headerlink" title="如何理解“母亲是一个平凡的人，她只是中国千百万劳动人民中的一员，但是，正是这千百万人创造了和创造着中国的历史”这句话？"></a>如何理解“母亲是一个平凡的人，她只是中国千百万劳动人民中的一员，但是，正是这千百万人创造了和创造着中国的历史”这句话？</h5><p>母亲<strong>勤苦一生，任劳任怨</strong>，母亲就是一位普普通通的农妇，她是 <strong>“平凡的”</strong>，但正是像母亲这样的千百万劳动人民，<strong>反抗地主豪绅的欺压，坚强不屈，融汇成革命的洪流</strong>，推动着历史的发展，为我们的民族做出了不可磨灭的贡献，中国的现在、未来都将是劳动人民的。这句议论，将<strong>悼念母亲的深情、报母恩的决心，与对民族、对广大劳动人民的深情融汇在一起</strong>。</p>
+<h5 id="赏析：“这类地主富人家看也不看的饭食，母亲却能做得使一家人吃起来有滋味”。"><a href="#赏析：“这类地主富人家看也不看的饭食，母亲却能做得使一家人吃起来有滋味”。" class="headerlink" title="赏析：“这类地主富人家看也不看的饭食，母亲却能做得使一家人吃起来有滋味”。"></a>赏析：“这类地主富人家看也不看的饭食，母亲却能做得使一家人吃起来有滋味”。</h5><p>“看也不看” “有滋味”，两相<strong>对比</strong>，既突岀了母亲的<strong>善持家务、聪慧能干</strong>，也表现出作者对地主家穷奢生活的<strong>蔑视</strong>，表达了作者对母亲的怀念。</p>
+<h3 id="《列夫·托尔斯泰》"><a href="#《列夫·托尔斯泰》" class="headerlink" title="《列夫·托尔斯泰》"></a>《列夫·托尔斯泰》</h3><h4 id="文学常识-2"><a href="#文学常识-2" class="headerlink" title="文学常识"></a>文学常识</h4><p><strong>作者茨威格，奥地利作家、评论家。</strong><br>列夫·托尔斯泰，19世纪中期俄国批判现实主义作家、文学家、思想家，主要作品有长篇小说 <strong>《复活》《安娜·卡列尼娜》《战争与和平》</strong> 等。其作品展现了俄国剧烈的社会变动。</p>
+]]></content>
+      <categories>
+        <category>文化课</category>
+      </categories>
+      <tags>
+        <tag>语文</tag>
       </tags>
   </entry>
   <entry>
@@ -123,6 +128,56 @@ vector(变长数组)+数组\\
       </tags>
   </entry>
   <entry>
+    <title>P1002-过河卒-题解</title>
+    <url>/2022/12/21/P1002-%E8%BF%87%E6%B2%B3%E5%8D%92-%E9%A2%98%E8%A7%A3/</url>
+    <content><![CDATA[<h3 id="dfs"><a href="#dfs" class="headerlink" title="dfs"></a>dfs</h3><p>看到求路径的数量，就想到用dfs搜索来解决。<br><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">long</span> <span class="type">long</span> cnt;</span><br><span class="line"><span class="type">long</span> <span class="type">long</span> x11,y11,x22,y22,v[<span class="number">30</span>][<span class="number">30</span>];</span><br><span class="line"><span class="type">int</span> dx[<span class="number">10</span>]=&#123;<span class="number">1</span>,<span class="number">0</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">-2</span>,<span class="number">-2</span>,<span class="number">-1</span>,<span class="number">1</span>,<span class="number">-1</span>,<span class="number">1</span>&#125;;<span class="comment">//卒的偏移和马的偏移</span></span><br><span class="line"><span class="type">int</span> dy[<span class="number">10</span>]=&#123;<span class="number">0</span>,<span class="number">1</span>,<span class="number">-1</span>,<span class="number">1</span>,<span class="number">1</span>,<span class="number">-1</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">-2</span>,<span class="number">-2</span>&#125;;<span class="comment">//卒的偏移和马的偏移</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> x,<span class="type">int</span> y)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(x==x11&amp;&amp;y==y11)&#123;<span class="comment">//如果到达终点</span></span><br><span class="line">		cnt++;<span class="comment">//路径++</span></span><br><span class="line">		<span class="keyword">return</span> ;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;=<span class="number">1</span>;i++)&#123;</span><br><span class="line">		<span class="type">int</span> nx=x+dx[i];</span><br><span class="line">		<span class="type">int</span> ny=y+dy[i];<span class="comment">//循环求出卒的坐标</span></span><br><span class="line">		<span class="keyword">if</span>(nx&gt;=<span class="number">0</span>&amp;&amp;ny&gt;=<span class="number">0</span>&amp;&amp;nx&lt;=x11&amp;&amp;ny&lt;=y11&amp;&amp;v[nx][ny]!=<span class="number">1</span>)&#123;</span><br><span class="line">			v[nx][ny]=<span class="number">1</span>;</span><br><span class="line">			<span class="built_in">dfs</span>(nx,ny);<span class="comment">//记忆化搜索</span></span><br><span class="line">			v[nx][ny]=<span class="number">0</span>;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125; </span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cin&gt;&gt;x11&gt;&gt;y11&gt;&gt;x22&gt;&gt;y22;</span><br><span class="line">	v[x22][y22]=<span class="number">1</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">2</span>;i&lt;=<span class="number">9</span>;i++)&#123;</span><br><span class="line">		<span class="type">int</span> nx=x22+dx[i];</span><br><span class="line">		<span class="type">int</span> ny=y22+dy[i];</span><br><span class="line">		<span class="keyword">if</span>(nx&gt;=<span class="number">0</span>&amp;&amp;ny&gt;=<span class="number">0</span>&amp;&amp;nx&lt;=x11&amp;&amp;ny&lt;=y11)</span><br><span class="line">			v[nx][ny]=<span class="number">1</span>;</span><br><span class="line">	&#125;<span class="comment">//求出不能走的点</span></span><br><span class="line">	<span class="keyword">if</span>(v[<span class="number">0</span>][<span class="number">0</span>]==<span class="number">1</span>)&#123;<span class="comment">//如果起点都被占了</span></span><br><span class="line">		cout&lt;&lt;<span class="number">0</span>;<span class="comment">//直接输出没有路径</span></span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">	&#125;	</span><br><span class="line">	<span class="keyword">else</span>&#123;</span><br><span class="line">		<span class="built_in">dfs</span>(<span class="number">0</span>,<span class="number">0</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	cout&lt;&lt;cnt;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br><span id="more"></span><br>但是显然，这样是会超时的。</p>
+<h3 id="dp"><a href="#dp" class="headerlink" title="dp"></a>dp</h3><p>思考我们现在站着的点为$(a,b)$，设走到$(a-1,b)$的路径数量为$x$，走到$(a,b-1)$的路径数量为$y$。</p>
+<p>显然，走到目前的点$(a,b)$的路径数量为$x+y$。</p>
+<p>于是我们得到状态转移方程：$f_{i,j}=f_{i-1,j}+f_{i,j-1}$</p>
+<p>当遇到马的时候，直接跳过就可以了。<br><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="meta">#<span class="keyword">define</span> LL long long</span></span><br><span class="line"><span class="type">int</span> ax,ay,mx,my;</span><br><span class="line"><span class="type">int</span> dx[<span class="number">9</span>]=&#123;<span class="number">-2</span>,<span class="number">-2</span>,<span class="number">-1</span>,<span class="number">-1</span>,<span class="number">1</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">0</span>&#125;;<span class="comment">//卒的偏移和马的偏移</span></span><br><span class="line"><span class="type">int</span> dy[<span class="number">9</span>]=&#123;<span class="number">-1</span>,<span class="number">1</span>,<span class="number">-2</span>,<span class="number">2</span>,<span class="number">-2</span>,<span class="number">2</span>,<span class="number">-1</span>,<span class="number">1</span>,<span class="number">0</span>&#125;;<span class="comment">//卒的偏移和马的偏移</span></span><br><span class="line">LL f[<span class="number">25</span>][<span class="number">25</span>];</span><br><span class="line"><span class="type">bool</span> g[<span class="number">25</span>][<span class="number">25</span>];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin&gt;&gt;ax&gt;&gt;ay&gt;&gt;mx&gt;&gt;my;</span><br><span class="line">    ax+=<span class="number">2</span>;ay+=<span class="number">2</span>;mx+=<span class="number">2</span>;my+=<span class="number">2</span>;<span class="comment">//加2防止越界</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;<span class="number">9</span>;i++)&#123;</span><br><span class="line">        g[mx+dx[i]][my+dy[i]]=<span class="literal">true</span>;<span class="comment">//记录哪里有马</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(g[<span class="number">2</span>][<span class="number">2</span>]!=<span class="literal">true</span>)    f[<span class="number">2</span>][<span class="number">1</span>]=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">else</span>&#123;cout&lt;&lt;<span class="number">0</span>;<span class="keyword">return</span> <span class="number">0</span>;&#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">2</span>;i&lt;=ax;i++)&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">2</span>;j&lt;=ay;j++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(g[i][j]==<span class="literal">true</span>)  <span class="keyword">continue</span>; </span><br><span class="line">            f[i][j]=f[i<span class="number">-1</span>][j]+f[i][j<span class="number">-1</span>]; </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;f[ax][ay]&lt;&lt;endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+]]></content>
+      <categories>
+        <category>OI</category>
+      </categories>
+      <tags>
+        <tag>c++</tag>
+        <tag>语法</tag>
+        <tag>洛谷</tag>
+        <tag>算法</tag>
+        <tag>dp</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>P1001-A+B-problem-题解</title>
+    <url>/2022/12/21/P1001-A-B-problem-%E9%A2%98%E8%A7%A3/</url>
+    <content><![CDATA[<p>使用cin读入，cout输出。<br><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> a,b;</span><br><span class="line">	cin&gt;&gt;a&gt;&gt;b;</span><br><span class="line">	cout&lt;&lt;a+b; </span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br><span id="more"></span></p>
+]]></content>
+      <categories>
+        <category>OI</category>
+      </categories>
+      <tags>
+        <tag>c++</tag>
+        <tag>语法</tag>
+        <tag>题解</tag>
+        <tag>洛谷</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>P1000-超级玛丽游戏-题解</title>
+    <url>/2022/12/21/P1000-%E8%B6%85%E7%BA%A7%E7%8E%9B%E4%B8%BD%E6%B8%B8%E6%88%8F-%E9%A2%98%E8%A7%A3/</url>
+    <content><![CDATA[<p>这题没什么说的，直接用cout输出即可。<br><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;                ********&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ************&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ####....#.&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             #..###.....##....&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             ###.......######              ###            ###&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;                ...........               #...#          #...#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;               ##*#######                 #.#.#          #.#.#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;            ####*******######             #.#.#          #.#.#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ...#***.****.*###....          #...#          #...#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ....**********##.....           ###            ###&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ....****    *****....&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;             ####        ####&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;           ######        ######&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##############################################################&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#...#......#.##...#......#.##...#......#.##------------------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;###########################################------------------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#..#....#....##..#....#....##..#....#....#####################&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#.....#......##.....#......##.....#......#    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;#.#..#....#..##.#..#....#..##.#..#....#..#    #----------#&quot;</span>&lt;&lt;endl; </span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;##########################################    ############&quot;</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br><span id="more"></span></p>
+]]></content>
+      <categories>
+        <category>OI</category>
+      </categories>
+      <tags>
+        <tag>c++</tag>
+        <tag>语法</tag>
+        <tag>题解</tag>
+        <tag>洛谷</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>模板</title>
     <url>/2022/12/20/%E6%A8%A1%E6%9D%BF/</url>
     <content><![CDATA[<h1 id="模板"><a href="#模板" class="headerlink" title="模板"></a>模板</h1><h2 id="二分"><a href="#二分" class="headerlink" title="二分"></a>二分</h2><h3 id="最大值最小"><a href="#最大值最小" class="headerlink" title="最大值最小"></a>最大值最小</h3><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="type">int</span> l=<span class="number">1</span>,r=n,mid;</span><br><span class="line">	<span class="keyword">while</span>(l&lt;r)&#123;<span class="comment">//l为开始位置，r为结束位置</span></span><br><span class="line">		mid=(l+r)/<span class="number">2</span>;</span><br><span class="line">		<span class="keyword">if</span>(<span class="built_in">check</span>(mid)==<span class="literal">true</span>)</span><br><span class="line">			r=mid;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">			l=mid+<span class="number">1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	cout&lt;&lt;l;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -154,61 +209,6 @@ vector(变长数组)+数组\\
         <tag>c++</tag>
         <tag>算法</tag>
         <tag>模板</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>语文复习</title>
-    <url>/2022/12/26/%E8%AF%AD%E6%96%87%E5%A4%8D%E4%B9%A0/</url>
-    <content><![CDATA[<h1 id="语文复习"><a href="#语文复习" class="headerlink" title="语文复习"></a>语文复习</h1><h2 id="一些模板"><a href="#一些模板" class="headerlink" title="一些模板"></a>一些模板</h2><h3 id="标题作用"><a href="#标题作用" class="headerlink" title="标题作用"></a>标题作用</h3><h4 id="内容上"><a href="#内容上" class="headerlink" title="内容上"></a>内容上</h4><ul>
-<li>表明写作对象，体现主要内容、事件、背景。</li>
-<li>揭示文章情感、主旨、道理。</li>
-<li>从修辞、句式、用词等方面分析，生动形象、突出、醒目、新颖含蓄、设置悬念，引起读者阅读兴趣等。</li>
-</ul>
-<h4 id="结构上"><a href="#结构上" class="headerlink" title="结构上"></a>结构上</h4><ul>
-<li>贯穿全文的线索（蓄势、抒情的线索）。</li>
-<li>总括全文，提纲挈领。<span id="more"></span>
-<h2 id="第二单元复习"><a href="#第二单元复习" class="headerlink" title="第二单元复习"></a>第二单元复习</h2><h3 id="《藤野先生》"><a href="#《藤野先生》" class="headerlink" title="《藤野先生》"></a>《藤野先生》</h3><h4 id="文学常识"><a href="#文学常识" class="headerlink" title="文学常识"></a>文学常识</h4>《藤野先生》选自《朝花夕拾》，作者<strong>鲁迅</strong>，浙江绍兴人，原名周树人，伟大的<strong>无产阶级文学家、思想家、革命家</strong>。发表了中国文学史上第一篇白话小说《狂人日记》。<h4 id="常考问题"><a href="#常考问题" class="headerlink" title="常考问题"></a>常考问题</h4><h5 id="《藤野先生》这一标题有何作用？"><a href="#《藤野先生》这一标题有何作用？" class="headerlink" title="《藤野先生》这一标题有何作用？"></a>《藤野先生》这一标题有何作用？</h5><h5 id="《藤野先生》是一篇回忆性散文，文章记录了作者留学过程中的哪几件事？"><a href="#《藤野先生》是一篇回忆性散文，文章记录了作者留学过程中的哪几件事？" class="headerlink" title="《藤野先生》是一篇回忆性散文，文章记录了作者留学过程中的哪几件事？"></a>《藤野先生》是一篇回忆性散文，文章记录了作者留学过程中的哪几件事？</h5></li>
-</ul>
-<ol>
-<li>离开东京之缘由</li>
-<li>仙台求学受优待</li>
-<li>初识藤野先生</li>
-<li>添改讲义</li>
-<li>纠正解剖图 </li>
-<li>关心解剖实习</li>
-<li>了解女人裹脚</li>
-<li>匿名信事件</li>
-<li>看电影事件</li>
-<li>离别先生<h5 id="从文中可以看出藤野先生具有怎样的品质？"><a href="#从文中可以看出藤野先生具有怎样的品质？" class="headerlink" title="从文中可以看出藤野先生具有怎样的品质？"></a>从文中可以看出藤野先生具有怎样的品质？</h5></li>
-<li>认真负责，一丝不苟。</li>
-<li>热情关心，严格要求学生。</li>
-<li>正直无私，真挚诚恳。</li>
-<li>探索研究，实事求是，治学严谨。</li>
-<li>没有民族偏见。<h5 id="作者为什么说藤野先生“在我的眼里和心里是伟大的”？"><a href="#作者为什么说藤野先生“在我的眼里和心里是伟大的”？" class="headerlink" title="作者为什么说藤野先生“在我的眼里和心里是伟大的”？"></a>作者为什么说藤野先生“在我的眼里和心里是伟大的”？</h5>他不仅是一个对“弱国”学生及其贫弱祖国抱有同情和尊重的人，更是一个矢志于医学事业的<strong>正直学者</strong>。藤野先生<strong>治学严谨，教学认真，没有狭隘的民族偏见，能以公正之心对待来自弱国的学生，且给予极大关心、鼓励和真诚的帮助，在当时是难能可贵的</strong>。因此，“他在我的眼里和心里是伟大的”。<h5 id="“实在标致极了。”“标致”你怎么理解？"><a href="#“实在标致极了。”“标致”你怎么理解？" class="headerlink" title="“实在标致极了。”“标致”你怎么理解？"></a>“实在标致极了。”“标致”你怎么理解？</h5>“标致”本义是<strong>相貌、姿态美丽</strong>，多用在女性身上。<br>此处用来形容“清国留学生”，是运用<strong>反语</strong>讽刺清国留学生的<strong>丑态丑行</strong>，表达了作者的<strong>厌恶</strong>之情。<h5 id="本文题目是《藤野先生》，可是作者还用了大量篇幅写和藤野先生无关的见闻和感受，你认为写这些内容有什么用？"><a href="#本文题目是《藤野先生》，可是作者还用了大量篇幅写和藤野先生无关的见闻和感受，你认为写这些内容有什么用？" class="headerlink" title="本文题目是《藤野先生》，可是作者还用了大量篇幅写和藤野先生无关的见闻和感受，你认为写这些内容有什么用？"></a>本文题目是《藤野先生》，可是作者还用了大量篇幅写和藤野先生无关的见闻和感受，你认为写这些内容有什么用？</h5></li>
-</ol>
-<ul>
-<li>全文围绕藤野先生组织材料的，写的是作者<strong>以藤野先生为中心的一段人生经历</strong>（写作者自己的生活经历和感受，也都与写藤野先生有关联）。</li>
-<li>衬托岀藤野先生的<strong>公正、真诚的精神及其在那种环境下的难能可贵</strong>。</li>
-<li>本文暗线为“我”的爱国之情，这些内容虽与藤野先生无直接关系，却表现着作者的<strong>忧国之情，爱国主义精神</strong>。<h5 id="“东京也无非是这样”中的“这样”指什么？“无非”有什么表达作用？本句在结构和内容上各有什么作用？"><a href="#“东京也无非是这样”中的“这样”指什么？“无非”有什么表达作用？本句在结构和内容上各有什么作用？" class="headerlink" title="“东京也无非是这样”中的“这样”指什么？“无非”有什么表达作用？本句在结构和内容上各有什么作用？"></a>“东京也无非是这样”中的“这样”指什么？“无非”有什么表达作用？本句在结构和内容上各有什么作用？</h5>“这样”指代下文作者在东京的见闻。“无非”用双重否定加强肯定的语气，表<strong>厌恶、失望</strong>之情。</li>
-</ul>
-<ul>
-<li>结构：<strong>引出下文</strong>，为下文作者离开东京前往仙台做铺垫。</li>
-<li>内容：表达作者对清国留学生的<strong>厌恶</strong>与<strong>鄙夷</strong>，对东京的失望。<h5 id="“正人君子”这个短语采用了什么修辞方法？指的是哪些人？表现了作者怎样的思想感情？"><a href="#“正人君子”这个短语采用了什么修辞方法？指的是哪些人？表现了作者怎样的思想感情？" class="headerlink" title="“正人君子”这个短语采用了什么修辞方法？指的是哪些人？表现了作者怎样的思想感情？"></a>“正人君子”这个短语采用了什么修辞方法？指的是哪些人？表现了作者怎样的思想感情？</h5>采用<strong>反语</strong>的修辞方法。指那些为封建军阀政客张目而自命为“正人君子”的文人，表现了作者对这些人的<strong>憎恶</strong>之情。<h5 id="赏析：他们也何尝不酒醉似的喝采。"><a href="#赏析：他们也何尝不酒醉似的喝采。" class="headerlink" title="赏析：他们也何尝不酒醉似的喝采。"></a>赏析：他们也<u>何尝不</u>酒醉似的喝采。</h5>“何尝”与“不”连用，以反诘的语气加强肯定，说明他们无一例外的<strong>幸灾乐祸、麻木不仁</strong>，强烈表达了作者对人们精神麻木的痛恨。<h3 id="《回忆我的母亲》"><a href="#《回忆我的母亲》" class="headerlink" title="《回忆我的母亲》"></a>《回忆我的母亲》</h3><h4 id="文学常识-1"><a href="#文学常识-1" class="headerlink" title="文学常识"></a>文学常识</h4>《回忆我的母亲》是篇叙事散文，作者是<strong>朱德</strong>，字<strong>玉阶</strong>，伟大的马克思主义者，伟大的<strong>无产阶级革命家、政治家、军事家</strong>，中国人民解放军的主要缔造者之一，中华人民共和国的开国元勋。<h4 id="常考问题-1"><a href="#常考问题-1" class="headerlink" title="常考问题"></a>常考问题</h4><h5 id="《回忆我的母亲》这一标题有何作用？"><a href="#《回忆我的母亲》这一标题有何作用？" class="headerlink" title="《回忆我的母亲》这一标题有何作用？"></a>《回忆我的母亲》这一标题有何作用？</h5><h5 id="母亲的“勤劳”是通过哪些事例体现出来的？从文中还可以看出母亲具有怎样的品质？"><a href="#母亲的“勤劳”是通过哪些事例体现出来的？从文中还可以看出母亲具有怎样的品质？" class="headerlink" title="母亲的“勤劳”是通过哪些事例体现出来的？从文中还可以看出母亲具有怎样的品质？"></a>母亲的“勤劳”是通过哪些事例体现出来的？从文中还可以看出母亲具有怎样的品质？</h5><strong>分析：</strong></li>
-</ul>
-<ul>
-<li>贫苦的家境中表现母亲的品质<br>母亲养育子女、支撑家庭；每日辛勤劳动；“我”助其劳作，她教我生产知识；她聪明勤劳维系着一家人的吃穿用度；在家庭中任劳任怨，待人和蔼，宽厚仁慈。</li>
-<li>在更广阔的社会背景下叙述具体事例<br>母亲同情穷苦农民，反感为富不仁者；父母节衣缩食培养“我”读书；母亲支持“我”参加革命；母亲离不开土地，习惯劳作；母亲支持“我”的事业，一直过着勤苦的农妇生活；母亲直到老年，仍热爱劳动。</li>
-</ul>
-<p><strong>答案：</strong><br>母亲<strong>勤劳吃苦、俭朴能干，任劳任怨、宽厚仁慈，爱憎分明，有远见、识大体，同情革命、支持革命</strong>等优秀品质。母亲既是一位普通的农妇，又是伟大人民中的一员。</p>
-<h5 id="如何理解“母亲是一个平凡的人，她只是中国千百万劳动人民中的一员，但是，正是这千百万人创造了和创造着中国的历史”这句话？"><a href="#如何理解“母亲是一个平凡的人，她只是中国千百万劳动人民中的一员，但是，正是这千百万人创造了和创造着中国的历史”这句话？" class="headerlink" title="如何理解“母亲是一个平凡的人，她只是中国千百万劳动人民中的一员，但是，正是这千百万人创造了和创造着中国的历史”这句话？"></a>如何理解“母亲是一个平凡的人，她只是中国千百万劳动人民中的一员，但是，正是这千百万人创造了和创造着中国的历史”这句话？</h5><p>母亲<strong>勤苦一生，任劳任怨</strong>，母亲就是一位普普通通的农妇，她是 <strong>“平凡的”</strong>，但正是像母亲这样的千百万劳动人民，<strong>反抗地主豪绅的欺压，坚强不屈，融汇成革命的洪流</strong>，推动着历史的发展，为我们的民族做出了不可磨灭的贡献，中国的现在、未来都将是劳动人民的。这句议论，将<strong>悼念母亲的深情、报母恩的决心，与对民族、对广大劳动人民的深情融汇在一起</strong>。</p>
-<h5 id="赏析：“这类地主富人家看也不看的饭食，母亲却能做得使一家人吃起来有滋味”。"><a href="#赏析：“这类地主富人家看也不看的饭食，母亲却能做得使一家人吃起来有滋味”。" class="headerlink" title="赏析：“这类地主富人家看也不看的饭食，母亲却能做得使一家人吃起来有滋味”。"></a>赏析：“这类地主富人家看也不看的饭食，母亲却能做得使一家人吃起来有滋味”。</h5><p>“看也不看” “有滋味”，两相<strong>对比</strong>，既突岀了母亲的<strong>善持家务、聪慧能干</strong>，也表现出作者对地主家穷奢生活的<strong>蔑视</strong>，表达了作者对母亲的怀念。</p>
-<h3 id="《列夫·托尔斯泰》"><a href="#《列夫·托尔斯泰》" class="headerlink" title="《列夫·托尔斯泰》"></a>《列夫·托尔斯泰》</h3><h4 id="文学常识-2"><a href="#文学常识-2" class="headerlink" title="文学常识"></a>文学常识</h4><p><strong>作者茨威格，奥地利作家、评论家。</strong><br>列夫·托尔斯泰，19世纪中期俄国批判现实主义作家、文学家、思想家，主要作品有长篇小说 <strong>《复活》《安娜·卡列尼娜》《战争与和平》</strong> 等。其作品展现了俄国剧烈的社会变动。</p>
-]]></content>
-      <categories>
-        <category>文化课</category>
-      </categories>
-      <tags>
-        <tag>语文</tag>
       </tags>
   </entry>
 </search>
