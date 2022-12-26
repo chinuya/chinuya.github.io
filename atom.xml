@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>chinuya的个人博客</title>
+  <title>Chinuya&#39;s Blog</title>
   
   <subtitle>——念念不忘，必有回响</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-12-26T02:57:50.753Z</updated>
+  <updated>2022-12-26T09:46:56.095Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>力</title>
+    <link href="http://example.com/2022/12/26/%E5%8A%9B/"/>
+    <id>http://example.com/2022/12/26/%E5%8A%9B/</id>
+    <published>2022-12-26T09:41:34.279Z</published>
+    <updated>2022-12-26T09:46:56.095Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="力"><a href="#力" class="headerlink" title="力"></a>力</h1><h2 id="力-1"><a href="#力-1" class="headerlink" title="力"></a>力</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>力是物体对物体的作用。</p><ul><li>要产生力至少需要两个物体。</li><li>接触的物体间可以产生力（接触力），不接触的物体间也可以产生力（非接触力）。</li><li>符号：F</li></ul><h3 id="单位"><a href="#单位" class="headerlink" title="单位"></a>单位</h3><p><strong>牛顿</strong>，简称牛，符号：N</p><h2 id="力的作用效果"><a href="#力的作用效果" class="headerlink" title="力的作用效果"></a>力的作用效果</h2><h3 id="力可以改变物体的形状。"><a href="#力可以改变物体的形状。" class="headerlink" title="力可以改变物体的形状。"></a>力可以改变物体的形状。</h3><span id="more"></span><h3 id="力可以改变物体的运动状态。"><a href="#力可以改变物体的运动状态。" class="headerlink" title="力可以改变物体的运动状态。"></a>力可以改变物体的运动状态。</h3><ul><li>使物体由静止开始运动或由运动变为静止。</li><li>使运动快慢发生改变。</li><li>使运动方向发生改变。</li></ul><h3 id="力的三要素"><a href="#力的三要素" class="headerlink" title="力的三要素"></a>力的三要素</h3><h4 id="定义-1"><a href="#定义-1" class="headerlink" title="定义"></a>定义</h4><p>力的大小、方向、作用点</p><h4 id="要点"><a href="#要点" class="headerlink" title="要点"></a>要点</h4><p>它们都会影响力的作用效果。</p><h4 id="力的示意图"><a href="#力的示意图" class="headerlink" title="力的示意图"></a>力的示意图</h4><h5 id="定义-2"><a href="#定义-2" class="headerlink" title="定义"></a>定义</h5><p>用一条带箭头的线段表示力的三要素的方法。</p><h5 id="要点-1"><a href="#要点-1" class="headerlink" title="要点"></a>要点</h5><ul><li>线段长短——力的大小</li><li>线段起点或终点——力的作用点</li><li>线段末端箭头——力的方向</li></ul><h2 id="力的作用是相互的"><a href="#力的作用是相互的" class="headerlink" title="力的作用是相互的"></a>力的作用是相互的</h2><h3 id="要点-2"><a href="#要点-2" class="headerlink" title="要点"></a>要点</h3><p>施力物体同时也是受力物体，受力物体同时也是施力物体。</p><h3 id="作用力与反作用力"><a href="#作用力与反作用力" class="headerlink" title="作用力与反作用力"></a>作用力与反作用力</h3><ul><li>大小相等</li><li>方向相反</li><li>作用在同一直线上</li><li>作用在不同物体上</li><li>同时产生，同时消失</li></ul>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;力&quot;&gt;&lt;a href=&quot;#力&quot; class=&quot;headerlink&quot; title=&quot;力&quot;&gt;&lt;/a&gt;力&lt;/h1&gt;&lt;h2 id=&quot;力-1&quot;&gt;&lt;a href=&quot;#力-1&quot; class=&quot;headerlink&quot; title=&quot;力&quot;&gt;&lt;/a&gt;力&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot; title=&quot;定义&quot;&gt;&lt;/a&gt;定义&lt;/h3&gt;&lt;p&gt;力是物体对物体的作用。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;要产生力至少需要两个物体。&lt;/li&gt;
+&lt;li&gt;接触的物体间可以产生力（接触力），不接触的物体间也可以产生力（非接触力）。&lt;/li&gt;
+&lt;li&gt;符号：F&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;单位&quot;&gt;&lt;a href=&quot;#单位&quot; class=&quot;headerlink&quot; title=&quot;单位&quot;&gt;&lt;/a&gt;单位&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;牛顿&lt;/strong&gt;，简称牛，符号：N&lt;/p&gt;
+&lt;h2 id=&quot;力的作用效果&quot;&gt;&lt;a href=&quot;#力的作用效果&quot; class=&quot;headerlink&quot; title=&quot;力的作用效果&quot;&gt;&lt;/a&gt;力的作用效果&lt;/h2&gt;&lt;h3 id=&quot;力可以改变物体的形状。&quot;&gt;&lt;a href=&quot;#力可以改变物体的形状。&quot; class=&quot;headerlink&quot; title=&quot;力可以改变物体的形状。&quot;&gt;&lt;/a&gt;力可以改变物体的形状。&lt;/h3&gt;</summary>
+    
+    
+    
+    <category term="文化课" scheme="http://example.com/categories/%E6%96%87%E5%8C%96%E8%AF%BE/"/>
+    
+    
+    <category term="物理" scheme="http://example.com/tags/%E7%89%A9%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>语文复习</title>
