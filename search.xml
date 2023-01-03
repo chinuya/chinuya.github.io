@@ -44,8 +44,8 @@
       </categories>
       <tags>
         <tag>语法</tag>
-        <tag>洛谷</tag>
         <tag>题解</tag>
+        <tag>洛谷</tag>
       </tags>
   </entry>
   <entry>
@@ -59,9 +59,9 @@
         <category>OI</category>
       </categories>
       <tags>
-        <tag>算法</tag>
-        <tag>洛谷</tag>
         <tag>题解</tag>
+        <tag>洛谷</tag>
+        <tag>算法</tag>
         <tag>贪心</tag>
         <tag>排序</tag>
       </tags>
@@ -76,9 +76,9 @@
         <category>OI</category>
       </categories>
       <tags>
-        <tag>算法</tag>
-        <tag>洛谷</tag>
         <tag>题解</tag>
+        <tag>洛谷</tag>
+        <tag>算法</tag>
         <tag>dfs</tag>
       </tags>
   </entry>
@@ -96,10 +96,10 @@
         <category>OI</category>
       </categories>
       <tags>
+        <tag>题解</tag>
+        <tag>洛谷</tag>
         <tag>算法</tag>
         <tag>dp</tag>
-        <tag>洛谷</tag>
-        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -253,8 +253,8 @@ vector(变长数组)+数组\\
         <category>OI</category>
       </categories>
       <tags>
-        <tag>算法</tag>
         <tag>洛谷</tag>
+        <tag>算法</tag>
         <tag>图论</tag>
       </tags>
   </entry>
@@ -272,9 +272,9 @@ vector(变长数组)+数组\\
       </categories>
       <tags>
         <tag>语法</tag>
+        <tag>洛谷</tag>
         <tag>算法</tag>
         <tag>dp</tag>
-        <tag>洛谷</tag>
       </tags>
   </entry>
   <entry>
@@ -287,8 +287,8 @@ vector(变长数组)+数组\\
       </categories>
       <tags>
         <tag>语法</tag>
-        <tag>洛谷</tag>
         <tag>题解</tag>
+        <tag>洛谷</tag>
       </tags>
   </entry>
   <entry>
@@ -301,8 +301,8 @@ vector(变长数组)+数组\\
       </categories>
       <tags>
         <tag>语法</tag>
-        <tag>洛谷</tag>
         <tag>题解</tag>
+        <tag>洛谷</tag>
       </tags>
   </entry>
 </search>

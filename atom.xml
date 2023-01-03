@@ -39,9 +39,9 @@
     
     <category term="语法" scheme="http://example.com/tags/%E8%AF%AD%E6%B3%95/"/>
     
-    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
     <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
     
   </entry>
   
@@ -63,11 +63,11 @@
     <category term="OI" scheme="http://example.com/categories/OI/"/>
     
     
-    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
     
     <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
     
-    <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
+    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
     
     <category term="贪心" scheme="http://example.com/tags/%E8%B4%AA%E5%BF%83/"/>
     
@@ -93,11 +93,11 @@
     <category term="OI" scheme="http://example.com/categories/OI/"/>
     
     
-    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
     
     <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
     
-    <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
+    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
     
     <category term="dfs" scheme="http://example.com/tags/dfs/"/>
     
@@ -123,13 +123,13 @@
     <category term="OI" scheme="http://example.com/categories/OI/"/>
     
     
-    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
-    
-    <category term="dp" scheme="http://example.com/tags/dp/"/>
+    <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
     
     <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
     
-    <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
+    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="dp" scheme="http://example.com/tags/dp/"/>
     
   </entry>
   
@@ -207,9 +207,9 @@ w:有边，且边权为w\\
     <category term="OI" scheme="http://example.com/categories/OI/"/>
     
     
-    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
-    
     <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
+    <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
     
     <category term="图论" scheme="http://example.com/tags/%E5%9B%BE%E8%AE%BA/"/>
     
@@ -234,11 +234,11 @@ w:有边，且边权为w\\
     
     <category term="语法" scheme="http://example.com/tags/%E8%AF%AD%E6%B3%95/"/>
     
+    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
+    
     <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
     
     <category term="dp" scheme="http://example.com/tags/dp/"/>
-    
-    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
     
   </entry>
   
@@ -261,9 +261,9 @@ w:有边，且边权为w\\
     
     <category term="语法" scheme="http://example.com/tags/%E8%AF%AD%E6%B3%95/"/>
     
-    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
     <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
     
   </entry>
   
@@ -286,9 +286,9 @@ w:有边，且边权为w\\
     
     <category term="语法" scheme="http://example.com/tags/%E8%AF%AD%E6%B3%95/"/>
     
-    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
-    
     <category term="题解" scheme="http://example.com/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+    <category term="洛谷" scheme="http://example.com/tags/%E6%B4%9B%E8%B0%B7/"/>
     
   </entry>
   
