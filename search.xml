@@ -34,6 +34,12 @@
       </tags>
   </entry>
   <entry>
+    <title>八上历史提纲</title>
+    <url>/2023/01/04/%E5%85%AB%E4%B8%8A%E5%8E%86%E5%8F%B2%E6%8F%90%E7%BA%B2/</url>
+    <content><![CDATA[<span id="more"></span>
+<div class="pdf-container" data-target="../pdf/八上历史提纲.pdf" data-height="500px"></div> ]]></content>
+  </entry>
+  <entry>
     <title>P2550-[AHOI2001]彩票摇奖-题解</title>
     <url>/2023/01/03/P2550-AHOI2001-%E5%BD%A9%E7%A5%A8%E6%91%87%E5%A5%96-%E9%A2%98%E8%A7%A3/</url>
     <content><![CDATA[<p>本题的思路相当简单：把买到的号码和中奖号码一一比对，算出是几等奖，然后按要求输出即可。</p>
